@@ -9,7 +9,18 @@ export default {
     "./node_modules/flowbite/**/*.{js,ts}",
   ],
   theme: {
+    screens: {
+      // breakpoints personalizados
+      sm: "360px",
+      md: "540px",
+      lg: "768px",
+      xl: "1180px",
+    },
     extend: {},
   },
-  plugins: [require("flowbite/plugin")],
+  plugins: [
+    require("flowbite/plugin"),
+    require("@tailwindcss/typography"), // Para estilos de texto
+    require("@tailwindcss/aspect-ratio"), // Clases para proporciones (como 16:9)
+  ],
 };
