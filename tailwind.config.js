@@ -17,10 +17,13 @@ export default {
       xl: "1180px",
     },
     extend: {},
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "12px",
+        md: "32px",
+      },
+    },
   },
-  plugins: [
-    require("flowbite/plugin"),
-    require("@tailwindcss/typography"), // Para estilos de texto
-    require("@tailwindcss/aspect-ratio"), // Clases para proporciones (como 16:9)
-  ],
+  plugins: [require("flowbite/plugin")],
 };
