@@ -84,10 +84,8 @@
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="lg:order-1 flex justify-end">
               <div
-                class="rounded-xl w-[278px] h-[260px] xl:w-[500px] xl:h-[390px] bg-gray-400 text-center mx-auto lg:mx-0 mb-4"
-              >
-                imagen
-              </div>
+                class="bg-[url('~/assets/images/mision.jpg')] bg-cover bg-no-repeat bg-center rounded-xl w-[278px] h-[260px] xl:w-[500px] xl:h-[390px] bg-gray-400 text-center mx-auto lg:mx-0 mb-4"
+              ></div>
             </div>
             <div>
               <p
@@ -112,10 +110,8 @@
           </h3>
           <div class="grid grid-cols-1 lg:grid-cols-2">
             <div
-              class="rounded-xl w-[278px] h-[260px] xl:w-[500px] xl:h-[390px] bg-gray-400 text-center mx-auto lg:mx-0 mb-4"
-            >
-              imagen
-            </div>
+              class="bg-[url('~/assets/images/vision.jpg')] bg-cover bg-no-repeat bg-center rounded-xl w-[278px] h-[260px] xl:w-[500px] xl:h-[390px] bg-gray-400 text-center mx-auto lg:mx-0 mb-4"
+            ></div>
             <div>
               <p class="text-sm md:text-lg xl:text-2xl text-justify text-white">
                 Aspiramos a ser una referencia en el ámbito del desarrollo web
@@ -135,7 +131,7 @@
 <script setup></script>
 <style scoped>
 .elegir {
-  background-image: url("../assets/images/vision.jpg");
+  background-image: url("../assets/images/nosotros.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

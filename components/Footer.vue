@@ -76,13 +76,7 @@
             class="text-pink-400 font-bold hover:text-white duration-300"
             to="#"
           >
-            email@email.com
-          </NuxtLink>
-          <NuxtLink
-            class="text-pink-400 font-bold hover:text-white duration-300"
-            to="#"
-          >
-            calle falsa 1234
+            coders.software.studio@gmail.com
           </NuxtLink>
         </div>
       </div>
@@ -97,19 +91,19 @@
             class="text-pink-400 font-bold hover:text-white duration-300"
             to="#"
           >
-            1234567890
+            Instagram
           </NuxtLink>
           <NuxtLink
             class="text-pink-400 font-bold hover:text-white duration-300"
             to="#"
           >
-            email@email.com
+            Facebook
           </NuxtLink>
           <NuxtLink
             class="text-pink-400 font-bold hover:text-white duration-300"
             to="#"
           >
-            calle falsa 1234
+            Linkedin
           </NuxtLink>
         </div>
       </div>
