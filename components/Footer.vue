@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer id="contacto">
     <!-- Newsletter -->
     <section class="container text-white mb-10">
       <!-- <div

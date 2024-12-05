@@ -26,7 +26,7 @@
           type="video/mp4"
           controls
         ></video>
-        <div>
+        <div id="nosotros">
           <h3
             class="text-xl md:text-3xl lg:text-4xl text-center font-bold mb-8"
           >
