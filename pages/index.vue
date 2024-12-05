@@ -53,7 +53,7 @@
             </h3>
             <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
               <div
-                class="rounded-xl w-[278px] h-[260px] lg:w-[372px] lg:h-[500px] xl:w-[500px] xl:h-[390px] elegir text-center mx-auto lg:mx-0 mb-8"
+                class="bg-[url('~/assets/images/nosotros.jpg')] bg-cover bg-no-repeat bg-center rounded-xl w-[278px] h-[260px] lg:w-[372px] lg:h-[500px] xl:w-[500px] xl:h-[390px] text-center mx-auto lg:mx-0 mb-8"
               ></div>
               <div>
                 <p class="text-xl md:text-3xl font-bold mb-2">Nosotros</p>
@@ -130,13 +130,6 @@
 
 <script setup></script>
 <style scoped>
-.elegir {
-  background-image: url("../assets/images/nosotros.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .bg-gradient {
   background: radial-gradient(
       circle at top right,
